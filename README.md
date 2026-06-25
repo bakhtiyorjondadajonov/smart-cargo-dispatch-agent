@@ -4,6 +4,8 @@ An AI agent that automatically matches auto-generated cargo transport **requests
 to the best available **vehicle**, using **Google Gemini** as the decision-making
 brain, and logs every recommendation with its latency for monitoring/analytics.
 
+> 📐 See [ARCHITECTURE.md](ARCHITECTURE.md) for component, flow, sequence, and ER diagrams (Mermaid).
+
 ## What it does
 
 1. A scheduler auto-generates transport requests at a random **1–10 minute** interval
